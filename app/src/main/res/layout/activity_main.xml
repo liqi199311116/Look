@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="com.test.project.lq.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get请求"
+        android:id="@+id/btn_get"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post请求"
+        android:id="@+id/btn_post"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_content"
+        />
+
+
+</LinearLayout>

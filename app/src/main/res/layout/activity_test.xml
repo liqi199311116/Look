@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.test.project.lq.TestActivity">
+
+    <Button
+        android:text="测试"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ta"
+        android:onClick="rxjava_test"
+        />
+    <Button
+        android:text="sample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seeyou_btn"
+        android:onClick="seeyou_test"
+        />
+    <Button
+        android:text="req"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seeyou_btn_again"
+        android:onClick="seeyou_again"
+        />
+    <Button
+        android:text="retrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="retrofit_test"
+        />
+
+    <Button
+        android:text="obersable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="able"
+        />
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
